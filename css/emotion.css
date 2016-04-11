@@ -1,0 +1,150 @@
+/*新浪微博表情*/
+#sinaEmotion {
+	z-index: 999;
+	width: 373px;
+	padding: 10px;
+	display: none;
+	font-size: 12px;
+	background: #fff;
+	position: absolute;
+	border: 1px solid #E8E8E8;
+}
+#sinaEmotion .right {
+	float: right;
+}
+
+#sinaEmotion .prev, #sinaEmotion .next {
+	float: left;
+	color: #555;
+	width: 22px;
+	height: 22px;
+	font-size: 20px;
+	margin-left: 5px;
+	line-height: 22px;
+	text-align: center;
+	background: #f8f8f8;
+	text-decoration: none;
+}
+
+#sinaEmotion .item {
+	float: left;
+	list-style: none;
+}
+
+#sinaEmotion .categories, #sinaEmotion .faces, #sinaEmotion .pages {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	_zoom: 1;
+}
+
+#sinaEmotion .category {
+	float: left;
+	color: #0a8cd2;
+	cursor: pointer;
+	padding: 0 8px;
+	line-height: 22px;
+	border-radius: 4px;
+	white-space: nowrap;
+}
+
+#sinaEmotion .category:hover {
+	text-decoration: underline;
+}
+
+#sinaEmotion .categories .current, #sinaEmotion .categories .current:hover
+	{
+	color: #333;
+	cursor: default;
+	background: #e6e6e6;
+	text-decoration: none;
+}
+
+#sinaEmotion .faces {
+	width: 372px;
+	padding: 11px 0 0 1px;
+}
+
+#sinaEmotion .face {
+	z-index: 1;
+	float: left;
+	width: 26px;
+	height: 22px;
+	cursor: pointer;
+	overflow: hidden;
+	padding: 4px 2px;
+	position: relative;
+	text-align: center;
+	margin: -1px 0 0 -1px;
+	border: 1px solid #e8e8e8;
+	_display: inline;
+}
+
+#sinaEmotion .face:hover {
+	z-index: 2;
+	border: 1px solid #0095cd;
+}
+
+#sinaEmotion .pages {
+	float: right;
+	margin-top: 8px;
+}
+
+#sinaEmotion .page {
+	float: left;
+	height: 22px;
+	padding: 0 8px;
+	color: #0a8cd2;
+	margin-left: 5px;
+	line-height: 22px;
+	border-radius: 1px;
+	background: #f2f2f2;
+	text-decoration: none;
+}
+
+#sinaEmotion .pages .current {
+	color: #333;
+	cursor: default;
+	background: #fff;
+}
+
+.sina-emotion {
+	border: 0;
+	vertical-align: text-bottom;
+}
+
+#sinaEmotion .w-arrow{
+	position: absolute;
+    left: 1px;
+    top: -15px;
+}
+#sinaEmotion .w-arrow .S_line3 {
+    border-color: transparent transparent #ccc transparent;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-width: 7px;
+    border-style: solid;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: top;
+}
+#sinaEmotion .w-arrow .S_bg2_br {
+    border-color: transparent transparent #fff transparent;
+    margin: 1px 0 0 -14px;
+    display: inline-block;
+    height: 0;
+    border-width: 7px;
+    border-style: solid;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: top;
+}
+
+/*微信表情*/
+#wxEmotion{margin-top:4px;background:#fff;padding:2px;border:1px #dfe6f6 solid;}
+#wxEmotion table td{padding:0px;}
+#wxEmotion table td img{cursor:pointer;border:1px #fff solid;}
+#wxEmotion table td img:hover{border:1px #0066cc solid;}
